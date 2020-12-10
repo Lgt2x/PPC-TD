@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ricardochaves/python-lint@v1.3.0
         with:
-          python-root-list: "td1 td2 td3 td4 td5 td6"
+          python-root-list: "td1 td2 td3 td4"
           use-pylint: true
           use-pycodestyle: true
           use-flake8: true
